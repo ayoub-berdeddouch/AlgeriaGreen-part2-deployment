@@ -10,8 +10,8 @@ import numpy as np
 def app():
     st.title("🌱 Omdena Algeria Chapter 🌱")
     img=Image.open("images/omdena_algeria.png")
-    newsize=(280,300)
-    img1=img.resize(newsize)
+#     newsize=(280,300)
+#     img1=img.resize(newsize)
     st.write("\n")
     st.write("\n")
     st.markdown("""Collaborate, Learn, Build, Grow """)
@@ -20,7 +20,7 @@ def app():
     st.write("\n")
     st.write("\n")
     st.write("\n")
-    st.image(img1,use_column_width='always')
+    st.image(img,use_column_width='always')
     st.write("\n")
     st.header("🤞Project Background")
     st.markdown(""" 
