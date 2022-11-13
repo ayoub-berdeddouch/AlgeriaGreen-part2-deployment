@@ -4,14 +4,6 @@ from PIL import Image
 import numpy as np
 
 
-
-st.set_page_config(
-    page_title="Omdena Algeria Chapter phase 2",
-    page_icon="🌱",
-    layout="centered",
-    initial_sidebar_state="expanded",
-)
-
 def app():
     st.title("🌱 Omdena Algeria Chapter 🌱")
     img=Image.open("images/omdena_algeria.png")
