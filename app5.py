@@ -8,7 +8,7 @@ df = pd.read_excel('Green_Algeria_Project_Contributions.xlsx')
    
 def app():
     st.title("🌱 Omdena Algeria Chapter")
-    img=Image.open("Images/omdena_algeria.png")
+    img=Image.open("images/omdena_algeria.png")
     newsize=(280,300)
     img1=img.resize(newsize)
     st.write("\n")
