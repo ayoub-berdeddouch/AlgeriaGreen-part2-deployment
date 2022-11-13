@@ -4,9 +4,17 @@ import numpy as np
 model = pickle.load(open("models/3_RecommendationSystems/rf_model.h5", "rb"))
 
 def app():
+    st.title("🌱 Omdena Algeria Chapter 🌱")
+    st.write("\n")
+    st.write("\n")
+    st.markdown("Collaborate, Learn, Build, Grow")
+    st.write("\n")
+    st.title("Water Recommendation System")
+    
+    
     TEXT = "Pressed"
     croplist = ["Wheat", "Ground Nuts", "Garden flowers", "Maize", "Paddy", "Potato","Pulse", "Suger Cane", "Coffee"]
-    st.title("Water Recommendation System")
+    
     crop_type = st.selectbox("Crop Type", croplist)
     crop_days = st.number_input('Number of days from which the crop was sown')
     soil_moisture = st.number_input('Current SoilMoisture')
