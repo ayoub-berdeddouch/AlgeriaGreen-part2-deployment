@@ -22,6 +22,12 @@ import app5
 
 #image_rootpath='Images/'
 
+st.set_page_config(
+    page_title="Omdena Algeria Chapter phase 2",
+    page_icon="🌱",
+    layout="centered",
+    initial_sidebar_state="expanded",
+)
 PAGES=	{	
 "Algeria Local Chapter":app1,
 "Algeria Chapter Part_2":app1_2,
