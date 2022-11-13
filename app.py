@@ -22,13 +22,14 @@ import app5
 
 #image_rootpath='Images/'
 
-PAGES=	{	"Algeria Local Chapter":app1,
-			"Algeria Chapter Part_2":app1_2,
-			"Indoor Climate Factors":app2,
-			"Diseases and Pests Detection":app3,
-			"Recommendation Systems":app4,
-			"Contributors":app5,			
-			}
+PAGES=	{	
+"Algeria Local Chapter":app1,
+"Algeria Chapter Part_2":app1_2,
+"Indoor Climate Factors":app2,
+"Diseases and Pests Detection":app3,
+"Recommendation Systems":app4,
+"Contributors":app5,			
+		}
 
 st.sidebar.title("Choose your option to navigate")
 selection=st.sidebar.radio("Go to",list(PAGES.keys()))
