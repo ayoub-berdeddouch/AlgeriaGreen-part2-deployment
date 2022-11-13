@@ -12,7 +12,11 @@ import cv2
 def app():
     # Title and Description
 
-    st.title('Omdena - Algeria Chapter Green')
+    st.title("🌱 Omdena Algeria Chapter 🌱")
+    st.write("\n")
+    st.write("\n")
+    st.markdown("Collaborate, Learn, Build, Grow")
+    st.write("\n")
     st.markdown('## Plant Disease Detection 🍁🍃🍂🍀')
     st.write("Just Upload your Plant's Leaf Image and Get Predictions if Your Plant is Healthy or Not!")
     st.write("\n")
