@@ -9,9 +9,6 @@ import matplotlib.pyplot as plt
 import matplotlib
 
 
-st.title('Greenhouse Climate Forecast')
-
-
 def prediction(file):
     
     #get data from user
@@ -85,7 +82,13 @@ def postprocess_n_plot(future_data, future_predictions, parameter_df):
     #return future_pred, future_data
 
 def app():   
-
+    st.title("🌱 Omdena Algeria Chapter 🌱")
+    st.write("\n")
+    st.write("\n")
+    st.markdown("Collaborate, Learn, Build, Grow")
+    st.write("\n")
+    st.title('Greenhouse Climate Forecast')
+    
     future_data = pd.DataFrame()
     future_pred = pd.DataFrame()
     
