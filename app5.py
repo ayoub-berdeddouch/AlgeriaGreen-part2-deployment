@@ -21,7 +21,7 @@ def app():
     st.write("\n")
     st.image(img,use_column_width='always')
     st.write("\n")
-    st.header("## 🤞Contributors")
+    st.header("🤞Contributors")
     st.dataframe(df)
     st.write("\n")
     st.header("🌐Website")
