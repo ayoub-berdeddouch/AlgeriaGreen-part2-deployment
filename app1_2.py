@@ -19,7 +19,7 @@ def app():
     st.write("\n")
     st.write("\n")
     """### gif from local file"""
-    file_ = open("Images/part2.gif", "rb")
+    file_ = open("images/part2.gif", "rb")
     contents = file_.read()
     data_url = base64.b64encode(contents).decode("utf-8")
     file_.close()
