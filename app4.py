@@ -12,14 +12,12 @@ def app():
     st.title("Water Recommendation System")
     
     
-    TEXT = "Pressed"
     croplist = ["Wheat", "Ground Nuts", "Garden flowers", "Maize", "Paddy", "Potato","Pulse", "Suger Cane", "Coffee"]
-    
     crop_type = st.selectbox("Crop Type", croplist)
-    crop_days = st.number_input('Number of days from which the crop was sown')
-    soil_moisture = st.number_input('Current SoilMoisture')
+    crop_days = st.number_input('Number of days passed after the crop was sown')
+    soil_moisture = st.number_input('Current Soil Moisture (DHT11 Reading)')
     temp = st.number_input('Current Temperature (°C)')
-    humid = st.number_input('Current Humidity (% [DHT11])')
+    humid = st.number_input('Current Humidity (%)')
     submit = st.button("Submit")
     if submit:
         param1 = croplist.index(crop_type) + 1
@@ -32,4 +30,4 @@ def app():
         if op[0] == 0:
             st.success('Your crop is irrigated!', icon="✅")
         else:
-            st.warning('Your crop needs irrigation', icon="⚠️")
+            st.warning('Your crop needs irrigation!', icon="⚠️")
