@@ -27,7 +27,7 @@ def app():
     st.markdown(
        """
        Omdena Algeria Chapter 🌐Website: https://omdena.com/local-chapters/algeria-local-chapter/
-       """
+       """)
     st.header("🤞Contributors")
     st.dataframe(df)
     st.write("\n")
