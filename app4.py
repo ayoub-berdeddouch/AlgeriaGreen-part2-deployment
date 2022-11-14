@@ -9,7 +9,7 @@ def app():
     st.write("\n")
     st.markdown("Collaborate, Learn, Build, Grow")
     st.write("\n")
-    st.title("Water Recommendation System")
+    st.title("Recommendation System for Water Management")
     
     
     croplist = ["Wheat", "Ground Nuts", "Garden flowers", "Maize", "Paddy", "Potato","Pulse", "Suger Cane", "Coffee"]
