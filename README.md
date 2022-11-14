@@ -44,8 +44,8 @@
 - Agricultural productivity is something on which Greenhouse economy highly depends. 
 - This is the one of the reasons that disease detection in plants plays an important role in agriculture field, as having disease in plants are quite natural. 
 - If proper care is not taken in this area then it causes serious effects on plants and due to which respective product quality, quantity or productivity is affected.
-- A ** EfficientNetB3 and VGG16 image classification model** is developed which can detect whether a tomato leaf is healthy or infected along with the disease type if its affected. 
-- The ** EfficientNetB3** trained on the **Plant Expert data consisting of 54 classes** got an **Accuracy of 98%**
+- A **EfficientNetB3 and VGG16 image classification model** is developed which can detect whether a tomato leaf is healthy or infected along with the disease type if its affected. 
+- The **EfficientNetB3** trained on the **Plant Expert data consisting of 54 classes** got an **Accuracy of 98%**
 
 ## 1.3 Irrigation recommendation system
 <p align="center">
