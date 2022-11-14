@@ -21,6 +21,13 @@ def app():
     st.write("\n")
     st.image(img,use_column_width='always')
     st.write("\n")
+    st.write("\n")
+    st.header("Omdena Algeria Chapter Lead 👩‍🏫👩‍👩‍💻💼")
+    st.image("https://media-exp1.licdn.com/dms/image/C5603AQH-HKA9Nni2rQ/profile-displayphoto-shrink_800_800/0/1662582238000?e=2147483647&v=beta&t=EE4CTMSBgPQYJvB4vraMP2YaVOXJDhG7ZVhA3Tt0ndk") 
+    st.markdown(
+       """
+       Omdena Algeria Chapter 🌐Website: https://omdena.com/local-chapters/algeria-local-chapter/
+       """
     st.header("🤞Contributors")
     st.dataframe(df)
     st.write("\n")
