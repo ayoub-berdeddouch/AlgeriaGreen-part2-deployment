@@ -22,7 +22,7 @@ def app():
     st.write("\n")
 
     # Loading Model
-    model = tf.keras.models.load_model("models/2_DiseasesandPestsDetection/plantdisease500.h5")
+    model = tf.keras.models.load_model("models/2_DiseasesandPestsDetection/plantdisease500-B3.h5")
 
 
     # Upload the image
