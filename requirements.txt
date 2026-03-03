@@ -2,7 +2,7 @@ streamlit
 pandas
 matplotlib
 numpy
-scikit-learn==1.0.2
+scikit-learn
 tensorflow 
 Pillow
 openpyxl
